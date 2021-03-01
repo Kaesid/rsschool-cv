@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 16px Helvetica, Sans-Serif;
+  line-height: 24px;
+  background: url(images/bg.jpg);
+}
+
+#page-style {
+  width: 800px;
+  margin: 40px auto 60px;
+}
+
+#avatar {
+  float: right;
+  margin: -30px 50px 50px 100px;
+  width: 315px;
+}
+
+#logo {
+  float: left;
+  margin: 0 30px 30px 0;
+  width: 220px;
+  border-bottom-style: solid;
+}
+
+#channel {
+  margin: 5px -40px 0px -50px;
+  width: 35px;
+}
+
+#code {
+  color: rgb(41, 26, 77);
+}
+
+h1 {
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  font-size: 33px;
+  font-weight: bold;
+}
+
+article {
+  margin-bottom: 16px;
+  color: rgb(34, 29, 102);
+}
+
+a {
+  color: rgb(34, 29, 102);
+  text-decoration: none;
+  border-bottom: 1px solid rgb(34, 29, 102);
+}
+
+address {
+  margin-bottom: 16px;
+}
+
+section {
+  width: 800px;
+}
+
+h2.title {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 16px;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+h3.ornament {
+  border: 2px solid rgb(0, 0, 0);
+  width: 30px;
+  padding: 4px;
+}
+
+p.clear {
+  height: 30px;
+}
+
+details > summary {
+  padding: 4px;
+  width: 200px;
+  background-color: #c4bdbd;
+  border: 1px solid rgb(0, 0, 0);
+  cursor: pointer;
+}
