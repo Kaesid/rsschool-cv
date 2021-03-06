@@ -22,9 +22,10 @@ body {
 
 #logo {
   float: left;
-  margin: 0 30px 30px 0;
+  margin-right: 30px;
+  margin-bottom: 30px;
   width: 220px;
-  border-bottom-style: solid;
+  border-bottom: 3px solid rgb(0, 0, 0);
 }
 
 #channel {
@@ -62,7 +63,7 @@ section {
   width: 800px;
 }
 
-h2.title {
+.title {
   font-style: italic;
   font-weight: bold;
   font-size: 18px;
@@ -70,13 +71,13 @@ h2.title {
   margin-bottom: 16px;
   border-bottom: 1px solid rgb(0, 0, 0);
 }
-h3.ornament {
+.ornament {
   border: 2px solid rgb(0, 0, 0);
   width: 30px;
   padding: 4px;
 }
 
-p.clear {
+.clear {
   height: 30px;
 }
 
